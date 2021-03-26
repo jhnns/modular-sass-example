@@ -1,0 +1,9 @@
+@use "../../styles/lib/layout.scss";
+@use "../../styles/lib/typo.scss";
+@use "../../styles/lib/colors.scss";
+
+.app-home {
+    padding: layout.$padding-l;
+    font-size: typo.$font-size-l;
+    background-color: colors.$background;
+}

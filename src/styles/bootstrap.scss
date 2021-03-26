@@ -1,0 +1,7 @@
+@use "./lib/colors.scss";
+
+$theme-colors: (
+    "info": colors.$info,
+);
+
+@import "bootstrap/scss/bootstrap"
