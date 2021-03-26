@@ -12,6 +12,8 @@ const createConfig = (_, {mode}) => {
     return {
         entry: {
             main: "./src/main.js",
+            // Often it's better to hand-pick modules that you want to extract
+            // into a separate chunk because they're unlikely to change a lot in the future.
             bootstrap: "./src/styles/bootstrap.scss",
         },
         output: {
